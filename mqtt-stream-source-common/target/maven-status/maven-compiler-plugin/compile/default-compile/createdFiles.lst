@@ -1,2 +1,2 @@
-com/system24seven/ignition/eventstream/source/MqttSourceModule.class
-com/system24seven/ignition/eventstream/source/MqttSourceConfig.class
+com/system24seven/ignition/mqttevent/source/MqttSourceConfig.class
+com/system24seven/ignition/mqttevent/source/MqttSourceModule.class

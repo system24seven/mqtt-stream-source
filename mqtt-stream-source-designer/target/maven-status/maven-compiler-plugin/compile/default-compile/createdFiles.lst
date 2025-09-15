@@ -1,3 +1,3 @@
-com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignDelegate.class
-com/system24seven/ignition/eventstream/source/designer/MqttSourceEditor.class
-com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignerHook.class
+com/system24seven/ignition/mqttevent/source/designer/MqttSourceEditor.class
+com/system24seven/ignition/mqttevent/source/designer/MqttSourceDesignerHook.class
+com/system24seven/ignition/mqttevent/source/designer/MqttSourceDesignDelegate.class

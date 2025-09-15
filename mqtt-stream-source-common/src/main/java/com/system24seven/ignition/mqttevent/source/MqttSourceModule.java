@@ -1,4 +1,4 @@
-package com.system24seven.ignition.eventstream.source;
+package com.system24seven.ignition.mqttevent.source;
 
 public class MqttSourceModule {
 

@@ -1,4 +1,4 @@
-package com.system24seven.ignition.eventstream.source;
+package com.system24seven.ignition.mqttevent.source;
 
 import com.inductiveautomation.ignition.common.gson.JsonObject;
 

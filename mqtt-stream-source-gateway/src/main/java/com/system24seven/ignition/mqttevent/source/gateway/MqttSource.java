@@ -1,16 +1,15 @@
-package com.system24seven.ignition.eventstream.source.gateway;
+package com.system24seven.ignition.mqttevent.source.gateway;
 
-import static com.system24seven.ignition.eventstream.source.MqttSourceModule.MODULE_ID;
+import static com.system24seven.ignition.mqttevent.source.MqttSourceModule.MODULE_ID;
 
 import com.hivemq.client.mqtt.mqtt5.Mqtt5AsyncClient;
 import com.inductiveautomation.eventstream.SourceDescriptor;
 import com.inductiveautomation.eventstream.gateway.api.EventStreamContext;
 import com.inductiveautomation.eventstream.gateway.api.EventStreamSource;
 import com.inductiveautomation.ignition.common.gson.JsonObject;
-import com.system24seven.ignition.eventstream.source.MqttSourceConfig;
-import com.system24seven.ignition.eventstream.source.MqttSourceModule;
+import com.system24seven.ignition.mqttevent.source.MqttSourceConfig;
+import com.system24seven.ignition.mqttevent.source.MqttSourceModule;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**

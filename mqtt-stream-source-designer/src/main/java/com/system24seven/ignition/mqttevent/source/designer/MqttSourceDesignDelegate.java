@@ -1,9 +1,9 @@
-package com.system24seven.ignition.eventstream.source.designer;
+package com.system24seven.ignition.mqttevent.source.designer;
 
 import com.inductiveautomation.eventstream.designer.api.EventStreamContext;
 import com.inductiveautomation.eventstream.designer.api.source.EventStreamSourceDesignDelegate;
 import com.inductiveautomation.eventstream.designer.api.source.SourceEditor;
-import com.system24seven.ignition.eventstream.source.MqttSourceModule;
+import com.system24seven.ignition.mqttevent.source.MqttSourceModule;
 
 public class MqttSourceDesignDelegate implements EventStreamSourceDesignDelegate {
 

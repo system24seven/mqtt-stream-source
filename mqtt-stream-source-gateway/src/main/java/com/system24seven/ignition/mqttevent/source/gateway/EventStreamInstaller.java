@@ -1,4 +1,4 @@
-package com.system24seven.ignition.eventstream.source.gateway;
+package com.system24seven.ignition.mqttevent.source.gateway;
 
 import com.inductiveautomation.eventstream.gateway.EventStreamManager;
 import com.inductiveautomation.ignition.gateway.model.GatewayContext;

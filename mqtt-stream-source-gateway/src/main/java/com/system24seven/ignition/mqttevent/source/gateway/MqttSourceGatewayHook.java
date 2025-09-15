@@ -1,11 +1,11 @@
-package com.system24seven.ignition.eventstream.source.gateway;
+package com.system24seven.ignition.mqttevent.source.gateway;
 
 import com.inductiveautomation.ignition.common.licensing.LicenseState;
 import com.inductiveautomation.ignition.common.util.LoggerEx;
 import com.inductiveautomation.ignition.gateway.model.AbstractGatewayModuleHook;
 import com.inductiveautomation.ignition.gateway.model.GatewayContext;
 import com.inductiveautomation.ignition.gateway.model.ModuleState;
-import com.system24seven.ignition.eventstream.source.MqttSourceModule;
+import com.system24seven.ignition.mqttevent.source.MqttSourceModule;
 
 public class MqttSourceGatewayHook extends AbstractGatewayModuleHook {
     private static LoggerEx logger = LoggerEx.newBuilder().build(MqttSourceGatewayHook.class);

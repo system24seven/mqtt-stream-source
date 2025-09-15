@@ -1,4 +1,4 @@
-package com.system24seven.ignition.eventstream.source.gateway;
+package com.system24seven.ignition.mqttevent.source.gateway;
 
 import static com.hivemq.client.mqtt.datatypes.MqttQos.AT_LEAST_ONCE;
 
@@ -10,7 +10,7 @@ import com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishResult;
 import com.inductiveautomation.eventstream.EventPayload;
 import com.inductiveautomation.eventstream.gateway.api.EventStreamSource;
 import com.inductiveautomation.ignition.common.util.LoggerEx;
-import com.system24seven.ignition.eventstream.source.MqttSourceConfig;
+import com.system24seven.ignition.mqttevent.source.MqttSourceConfig;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;

@@ -1,4 +1,4 @@
-package com.system24seven.ignition.eventstream.source.designer;
+package com.system24seven.ignition.mqttevent.source.designer;
 
 import com.inductiveautomation.eventstream.designer.api.EventStreamContext;
 import com.inductiveautomation.eventstream.designer.api.source.SourceEditor;
@@ -7,9 +7,8 @@ import com.inductiveautomation.ignition.common.gson.JsonObject;
 import javax.swing.*;
 
 import com.inductiveautomation.ignition.common.util.LoggerEx;
-import com.system24seven.ignition.eventstream.source.MqttSourceConfig;
+import com.system24seven.ignition.mqttevent.source.MqttSourceConfig;
 import net.miginfocom.swing.MigLayout;
-import org.slf4j.ILoggerFactory;
 
 import java.util.Objects;
 

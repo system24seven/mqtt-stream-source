@@ -1,11 +1,11 @@
-package com.system24seven.ignition.eventstream.source.designer;
+package com.system24seven.ignition.mqttevent.source.designer;
 
 import com.inductiveautomation.eventstream.designer.EventStreamDesignerHook;
 import com.inductiveautomation.ignition.common.licensing.LicenseState;
 import com.inductiveautomation.ignition.designer.model.AbstractDesignerModuleHook;
 import com.inductiveautomation.ignition.designer.model.DesignerContext;
 import com.inductiveautomation.ignition.designer.model.DesignerModuleHook;
-import com.system24seven.ignition.eventstream.source.MqttSourceModule;
+import com.system24seven.ignition.mqttevent.source.MqttSourceModule;
 
 public class MqttSourceDesignerHook extends AbstractDesignerModuleHook implements DesignerModuleHook {
     @Override
