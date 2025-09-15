@@ -7,7 +7,7 @@
     <groupId>com.system24seven.ignition</groupId>
     <artifactId>mqtt-stream-source</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <modules>
         <module>mqtt-stream-source-build</module>

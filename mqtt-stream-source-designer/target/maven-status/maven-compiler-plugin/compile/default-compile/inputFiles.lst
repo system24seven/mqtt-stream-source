@@ -1,3 +1,3 @@
-/Users/davidstone/Documents/SDK/event-stream-source/event-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceEditor.java
-/Users/davidstone/Documents/SDK/event-stream-source/event-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignerHook.java
-/Users/davidstone/Documents/SDK/event-stream-source/event-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignDelegate.java
+/Users/davidstone/Documents/SDK/mqtt-stream-source/mqtt-stream-source/mqtt-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceEditor.java
+/Users/davidstone/Documents/SDK/mqtt-stream-source/mqtt-stream-source/mqtt-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignerHook.java
+/Users/davidstone/Documents/SDK/mqtt-stream-source/mqtt-stream-source/mqtt-stream-source-designer/src/main/java/com/system24seven/ignition/eventstream/source/designer/MqttSourceDesignDelegate.java
