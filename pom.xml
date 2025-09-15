@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.system24seven.ignition</groupId>
-    <artifactId>event-stream-source</artifactId>
+    <artifactId>mqtt-stream-source</artifactId>
     <packaging>pom</packaging>
     <version>1.1.0</version>
 
     <modules>
-        <module>event-stream-source-build</module>
-        <module>event-stream-source-common</module>
-        <module>event-stream-source-designer</module>
-        <module>event-stream-source-gateway</module>
+        <module>mqtt-stream-source-build</module>
+        <module>mqtt-stream-source-common</module>
+        <module>mqtt-stream-source-designer</module>
+        <module>mqtt-stream-source-gateway</module>
     </modules>
 
     <properties>

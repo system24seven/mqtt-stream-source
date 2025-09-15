@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>mqtt-stream-source</artifactId>
+        <groupId>com.system24seven.ignition</groupId>
+        <version>1.1.0</version>
+    </parent>
+
+    <artifactId>mqtt-stream-source-build</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.system24seven.ignition</groupId>
+            <artifactId>mqtt-stream-source-designer</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.system24seven.ignition</groupId>
+            <artifactId>mqtt-stream-source-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.system24seven.ignition</groupId>
+            <artifactId>mqtt-stream-source-gateway</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.inductiveautomation.ignitionsdk</groupId>
+                <artifactId>ignition-maven-plugin</artifactId>
+                <version>1.1.0</version>
+
+                <executions>
+                    <execution>
+                        <id>modl</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>modl</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+                <configuration>
+                    <projectScopes>
+                        <projectScope>
+                            <name>mqtt-stream-source-common</name>
+                            <scope>CDG</scope>
+                        </projectScope>
+                        <projectScope>
+                            <name>mqtt-stream-source-designer</name>
+                            <scope>D</scope>
+                        </projectScope>
+                        <projectScope>
+                            <name>mqtt-stream-source-gateway</name>
+                            <scope>G</scope>
+                        </projectScope>
+                    </projectScopes>
+
+                    <moduleId>com.system24seven.ignition.mqtt-stream-source</moduleId>
+                    <moduleName>${module-name}</moduleName>
+                    <moduleDescription>${module-description}</moduleDescription>
+                    <moduleVersion>${project.version}</moduleVersion>
+                    <requiredIgnitionVersion>${ignition-platform-version}</requiredIgnitionVersion>
+
+                    <depends>
+                        <depend>
+                            <scope>D</scope>
+                            <moduleId>com.inductiveautomation.eventstream</moduleId>
+                        </depend>
+                        <depend>
+                            <scope>G</scope>
+                            <moduleId>com.inductiveautomation.eventstream</moduleId>
+                        </depend>
+                    </depends>
+
+                    <hooks>
+                        <hook>
+                            <scope>D</scope>
+                            <hookClass>com.system24seven.ignition.mqttevent.source.designer.MqttSourceDesignerHook</hookClass>
+                            <hookClass>com.system24seven.ignition.mqttevent.source.designer.MqttSourceDesignerHook</hookClass>
+                        </hook>
+                        <hook>
+                            <scope>G</scope>
+                            <hookClass>com.system24seven.ignition.mqttevent.source.gateway.MqttSourceGatewayHook</hookClass>
+                        </hook>
+                    </hooks>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
